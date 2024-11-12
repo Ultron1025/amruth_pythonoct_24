@@ -10,4 +10,4 @@ def create_table_flights():
     conn.execute(query)
     conn.close()
 
-create_table_flights
+create_table_flights()
